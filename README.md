@@ -1,4 +1,4 @@
 Page Generator
 ==============
 
-[pirave.github.com](pirave.github.com)
+[pirave.github.com](http://pirave.github.io)
