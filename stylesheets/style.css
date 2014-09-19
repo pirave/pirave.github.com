@@ -1,0 +1,260 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+    font-smoothing: antialiased;
+  background: #000;
+  color: #000;
+  font-family: 'Avenir LT W01 55 Roman', 'Avenir', helvetica, arial;
+  -webkit-transition: background-color 0.5s ease-in-out;
+  -moz-transition: background-color 0.5s ease-in-out;
+  -o-transition: background-color 0.5s ease-in-out;
+  transition: background-color 0.5s ease-in-out;
+}
+
+span {display:block;}
+
+h1, h2 {
+  font-size: 18px;
+  line-height: 24px;
+  letter-spacing: 2px;
+  color: black;
+  font-weight: 600;
+  }
+
+h2 {margin-bottom: 40px;}
+
+ul,li {
+  margin: 0; 
+  padding: 0;
+  }
+  
+ul span {
+  display: inline-block;
+}
+
+ul li {
+  line-height: 24px;
+  letter-spacing: 1px;
+}
+
+ul a {
+  text-decoration: none; 
+  font-size: 10px; 
+  color: black; 
+  text-transform: uppercase;
+  font-weight: 700;
+  }
+
+a:hover {color: #16b8d9;}
+
+a {color: #16b8d9;
+
+text-decoration: none;
+
+}
+
+
+
+
+/*______COLORS_______*/
+.color-intro {background-color: #fff;}
+.color-artsy {background-color: #6b00d0;}
+.color-oyyo {background-color: #ffbf98;}
+.color-soundrop {background-color: #00bf60;}
+.color-svtplay {background-color: #131313;}
+.color-svt-nyheter {background-color: #d90000;}
+.color-spotify {background-color: #65a100;}
+.color-shaot {background-color: #ffbf00;}
+.color-spotify-mobile {background-color: #65a100;}
+.color-svt-humor {background-color: #e64662;}
+.color-svt {background-color: #333333;}
+.color-telia {background-color: #ef6ea3;}
+.color-spotify-radio {background-color: #649a00;}
+.color-doberman {background-color: #666666;}
+.color-dottirsonur {background-color: #4c1774;}
+.color-itshowtime {background-color: #46adb2;}
+.color-artiitii {background-color: #f2b600;}
+.color-footer {background-color: #999;}
+
+
+.section {
+  width: 100%;
+  text-align: center;
+  min-height: 500px;
+}
+
+.brand {
+  margin-bottom: 50px;
+}
+
+#brand_id {
+  position: fixed;
+  top: 20px; left: 20px;
+
+}
+
+#share{
+  font-size: 50px !important;
+}
+
+.intro-header {
+  font-size: 24px;
+  line-height: 34px;
+
+}
+
+.intro-tagline {
+  font-size: 10px;
+  text-transform: uppercase;
+  margin-bottom: 40px;
+  letter-spacing: 1px;
+}
+
+.intro-description{
+  font-size: 24px;
+  line-height: 34px;
+  margin: 0 auto 40px auto;
+  max-width: 790px;
+}
+
+.intro-description {
+  text-transform: none;
+}
+
+#intro {
+  padding: 140px 0 100px 0;
+  text-transform: uppercase;
+}
+
+/* Smartphones (portrait) ----------- */
+@media screen and (max-width: 320px) {
+
+ul a {
+  text-decoration: none; 
+  font-size: 8px; 
+  line-height: 18px;
+  color: black; 
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.brand {
+  margin-bottom: 20px;
+  font-size: 20px;
+}
+
+h2 {
+  margin-bottom: 20px;
+}
+
+.intro-tagline {
+  font-size: 8px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+#intro {
+  font-size: 8px;
+  padding: 80px 0 0px 0;
+  text-transform: uppercase;
+}
+
+.intro-header {
+  font-size: 12px;
+  line-height: 21px;
+
+}
+
+.intro-description {
+  max-width: 790px;
+  font-size: 14px;
+  margin: 0 auto 20px auto;
+  line-height: 21px;
+
+}
+
+
+body {
+  -webkit-transition: none;
+  -moz-transition: none;
+  -o-transition: none;
+  transition:none;
+}
+
+@media screen and (min-width: 321px) and (orientation:landscape) {
+ul a {
+  text-decoration: none; 
+  font-size: 8px; 
+  line-height: 18px;
+  color: black; 
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.brand {
+  margin-bottom: 20px;
+}
+
+h2 {
+  margin-bottom: 20px;
+}
+
+#intro {
+  font-size: 8px;
+  padding: 80px 0 0px 0;
+  text-transform: uppercase;
+}letter-spacing: 1px;
+}
+
+
+body {
+  -webkit-transition: none;
+  -moz-transition: none;
+  -o-transition: none;
+  transition:none;
+}
+}
